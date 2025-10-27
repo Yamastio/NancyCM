@@ -29,12 +29,13 @@ NancyCM bekerja dengan langkah-langkah berikut:
 4. Hasil akhir berupa **satu atau banyak cookie** dalam format Base64, siap digunakan sebagai header `Authorization: Basic <cookie>` dalam HTTP request.
 5. Simpan semua cookie ke **file output** yang ditentukan pengguna.
 
-> Contoh:
-> Username: `wiener`
-> Password: `peter`
-> MD5 dari `peter` = `5f4dcc3b5aa765d61d8327deb882cf99`
-> String gabungan: `wiener:5f4dcc3b5aa765d61d8327deb882cf99`
-> Base64: `d2llbmVyOjVmNGRkYzNiNWFhNzY1ZDYxZDgzMjdkZWI4ODJjZjk5` ✅
+Contoh:
+
+- Username: `wiener`
+- Password: `peter`
+- MD5 dari `peter` = `5f4dcc3b5aa765d61d8327deb882cf99`
+- String gabungan: `wiener:5f4dcc3b5aa765d61d8327deb882cf99`
+- Base64: `d2llbmVyOjVmNGRkYzNiNWFhNzY1ZDYxZDgzMjdkZWI4ODJjZjk5` ✅
 
 ---
 
@@ -144,23 +145,6 @@ d2llbmVyOmIyZTdlNjE4ZTQ1ZjQ0YjU5ZjQ1ZjQ0YjU5ZjQ1ZjQ0YjU5
 
 ---
 
-## 📦 Dependensi
-
-Lihat `requirements.txt`:
-
-```txt
-rich>=10.0.0        # Opsional — untuk TUI
-pyfiglet>=0.8.0     # Opsional — untuk header ASCII
-```
-
-> Program tetap berjalan **tanpa keduanya**, hanya dalam mode teks dasar.
-
----
-
 ## 📄 Lisensi
 
 Proyek ini dirilis di bawah **MIT License** — bebas digunakan, dimodifikasi, dan didistribusikan.
-
----
-
-> 💡 **Catatan Keamanan**: Alat ini hanya untuk tujuan edukasi dan pengujian keamanan sah (dengan izin). Jangan gunakan untuk aktivitas ilegal.
