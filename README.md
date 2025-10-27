@@ -142,7 +142,3 @@ See `requirements.txt`:
 
 This project is open source under **MIT License** — feel free to use, modify, and contribute.
 
----
-
-Jika mau, saya bisa sekalian buatkan **requirements.txt** yang sesuai dengan kode Python Cookie Maker-mu.
-Apakah ingin saya buatkan juga?
