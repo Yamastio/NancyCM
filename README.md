@@ -1,9 +1,5 @@
 # NancyCM
 
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Rich](https://img.shields.io/badge/Rich-TUI-green.svg)](https://github.com/Textualize/rich)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-
 **NancyCM** adalah alat berbasis Python untuk membuat **cookie dalam format `username(base64):password(md5)`**.
 Mendukung input **single username** atau **daftar password dari file**, dan menawarkan **TUI interaktif** menggunakan [Rich](https://github.com/Textualize/rich) atau fallback **CLI sederhana** jika Rich tidak tersedia.
 
