@@ -3,6 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Rich](https://img.shields.io/badge/Rich-TUI-green.svg)](https://github.com/Textualize/rich)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 **NancyCM** adalah alat berbasis Python untuk membuat **cookie dalam format `username(base64):password(md5)`**.
 Mendukung input **single username** atau **daftar password dari file**, dan menawarkan **TUI interaktif** menggunakan [Rich](https://github.com/Textualize/rich) atau fallback **CLI sederhana** jika Rich tidak tersedia.
 
@@ -65,7 +66,7 @@ pip install -r requirements.txt
 ```bash
 python cookie_maker.py
 
-````
+```
 
 Steps:
 
@@ -75,11 +76,11 @@ Steps:
 4. Enter output path
 5. Confirm to generate cookies
 
-* **CLI fallback (without Rich)**
+- **CLI fallback (without Rich)**
 
 ```bash
 python cookie_maker.py
-````
+```
 
 Steps:
 
@@ -141,4 +142,3 @@ See `requirements.txt`:
 ## License
 
 This project is open source under **MIT License** — feel free to use, modify, and contribute.
-
