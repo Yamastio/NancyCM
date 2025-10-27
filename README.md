@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 - **TUI interface (with Rich)**
 
-j```bash
+```bash
 python cookie_maker.py
 
 ````
